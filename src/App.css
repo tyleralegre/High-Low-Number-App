@@ -1,0 +1,131 @@
+.Hero {
+  font-family: sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  background: #5555ab;
+  color: #FFF;
+  display: flex;
+}
+
+.Hero .container{
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  background: #04042b;
+}
+
+.Hero .container .randomNum{
+  background: #181831;
+  padding: 20px;
+
+}
+
+.Hero .container .randomNum p span{
+  color: #9cff9c;
+  font-weight: 600;
+
+}
+.Hero .numContainer{
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+  width: 100%;
+}
+
+.Hero .numContainer .numContainerWrapper {
+  width: 100%;
+  max-width: 42%;
+}
+
+.Hero .numContainer div input {
+  padding: 8px;
+  border: none;
+  outline: none;
+  width: 100%;
+  background: #181831;
+  color: #9cff9c;
+}
+
+.Hero .container button{
+  align-self: flex-end;
+  border: none;
+  outline: none;
+  background: #292977;
+  color: #FFF;
+  padding: 14px;
+  width: 100%;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.Hero .container button:disabled {
+  background: grey;
+  opacity: .3;
+}
+
+.Hero .sidePick p {
+  border: none;
+  outline: none;
+  width: 400px;
+  height: 54px;
+  margin: auto;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 18px;
+}
+ 
+.Hero .container .lowButton p2 {
+    height: 32px;
+    border: none;
+    outline: none;
+    color: #9cff9c;
+    display: flex;
+    justify-content: center;
+}
+
+.Hero .container .lowButton .button1 {
+  margin: auto;
+  background-color: #f44336; /* Red */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
+.Hero .container .highButton .button2 {
+  margin: auto;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  
+}
+
+.Hero .container .highButton p3 {
+  height: 32px;
+  border: none;
+  outline: none;
+  color: #9cff9c;
+  display: flex;
+  justify-content: center;
+  margin-top: 72px;
+}
+
+.Hero .container .lowButton .button1:hover {
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+}
+
+.Hero .container .highButton .button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+}
